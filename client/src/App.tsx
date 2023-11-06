@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useRecoilState } from "recoil";
 import { CandleStickData} from './Recoil/Recoil'
 import Kline from "./Component/klIne";
+import Kline2 from "./Component/Klines2";
 
 const App = () => {
     
@@ -104,7 +105,7 @@ const App = () => {
 
     return (
         <div className="py-[5rem] gap-[12rem] min-h-[100vh] w-[100vw] bg-black flex justify-center items-center justify-center">
-            <Kline candlestickData={candelstickstate}  />
+            <Kline2 candlestickData={candelstickstate}  />
         </div>
     );
 }

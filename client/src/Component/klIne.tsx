@@ -1,3 +1,6 @@
+// Ignore this
+
+
 import { createChart, IChartApi, DeepPartial, ISeriesApi, Time, CandlestickData, WhitespaceData, CandlestickSeriesOptions } from "lightweight-charts";
 import React, { useEffect, useRef } from "react";
 
