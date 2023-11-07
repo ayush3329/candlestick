@@ -18,4 +18,17 @@ export const CandleStickData = atom<stick[]>({
     default: []
 })
 
+export type interval_num = {
+    interval: string,
+    range: number
+}
+
+export const duration = atom<interval_num>({
+    key: 'duration',
+    default: {
+        interval: 'sec',
+        range: 1
+    }
+})
+
 
